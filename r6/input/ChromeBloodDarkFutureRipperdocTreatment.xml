@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<bindings>
+    <context name="ChromeBloodDarkFutureTreatment">
+        <action name="cbb_df_treat_injuries" map="cbb_df_treat_injuries" />
+    </context>
+
+    <context name="UIMenu" append="true">
+        <include name="ChromeBloodDarkFutureTreatment" />
+    </context>
+
+    <mapping name="cbb_df_treat_injuries" type="Button">
+        <button id="IK_R" />
+        <button id="IK_Pad_X_SQUARE" />
+    </mapping>
+</bindings>
